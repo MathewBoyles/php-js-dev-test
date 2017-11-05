@@ -1,26 +1,13 @@
 # PHP JavaScript Developer Test
+This is my attempt at the PHP JavaScript Developer Test. This took a little over 2 hours to complete.
 
-A simple test for PHP / JavaScript Developers
+## Installation / Usage
+1. Download the contents onto a LAMP server of your choice. PHP and MySQL required.
+2. Run `npm install` to install all required Node dependencies.
+3. Copy the contents of __/core/example.config.php__ into __/core/config.php__ and update MySQL info as suited.
+4. Import __/core/users.sql__ into your MySQL database.
+5. Done. The app is ready to run.
 
-## Instructions
-
-1. Fork or clone this repo
-2. Import the CSV file located in `data/customers.csv` into a database (MySQL or Mongo is preferred)
-3. Create a basic PHP web service that serves the data from the database as JSON
-4. Create a basic web page that asynchronously loads the JSON into a list or table when you click a button
-5. Create a pull request or email us at dev@catch.co.nz
-
-### Guidelines
-
-1. Your repo needs to include at minimum anything required to get the app working.  Detailed instructions should be provided in the `README.md` file to setup and run the app.
-2. If a structured schema migration tool is not used then a setup script must be supplied to create any data tables etc
-3. Try not spend more than 2 hours on it
-
-### Bonus Points
-
-* Make it Pretty
-* Make it as OO as possible
-* Consume dependencies with tools like Composer, Bower and NPM
-* Use patterns like MVC, ORM
-* Compile any front end assets with a build tool like gulp
-* Unit tests
+## Notes
+* This project uses Grunt to compile SASS and to minify CSS/JS files. Grunt is not required to run this app, however installation instructions available [here](https://gruntjs.com/getting-started).
+* [pleeease.io](http://pleeease.io/play/) was used for better cross-platform support.

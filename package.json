@@ -1,0 +1,33 @@
+{
+  "name": "catchdevtest",
+  "version": "1.0.0",
+  "description": "This is my attempt at the PHP JavaScript Developer Test. This took a little under 2 hours to complete.",
+  "main": "script.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6",
+    "template7": "^1.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathewBoyles/php-js-dev-test.git"
+  },
+  "author": "Mathew Boyles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathewBoyles/php-js-dev-test/issues"
+  },
+  "homepage": "https://github.com/MathewBoyles/php-js-dev-test#readme"
+}
